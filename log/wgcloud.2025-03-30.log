@@ -1,0 +1,199 @@
+2025-03-30 20:33:19.887 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 8460 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-30 20:33:19.889 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-30 20:33:19.967 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-30 20:33:19.968 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-30 20:33:19.968 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-30 20:33:21.392 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-30 20:33:21.393 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-30 20:33:21.394 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-30 20:33:21.394 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-30 20:33:21.394 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-30 20:33:22.448 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-30 20:33:22.460 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-30 20:33:22.460 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-30 20:33:22.589 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-30 20:33:22.589 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2620 ms
+2025-03-30 20:33:23.703 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-30 20:33:24.750 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-30 20:33:24.793 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-30 20:33:24.807 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.486 seconds (JVM running for 6.856)
+2025-03-30 20:33:44.858 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-30 20:33:44.862 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-30 20:33:45.043 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-30 20:33:45.314 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-30 20:33:54.814 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:33:54
+2025-03-30 20:33:54.816 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:33:54
+2025-03-30 20:33:55.293 [http-nio-9999-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-30 20:33:55.293 [http-nio-9999-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-30 20:33:55.294 [http-nio-9999-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-30 20:33:55.437 [http-nio-9999-exec-4] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [131] milliseconds.
+2025-03-30 20:34:54.817 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:34:54
+2025-03-30 20:34:54.817 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 20:34:54
+2025-03-30 20:34:54.818 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:34:54
+2025-03-30 20:34:57.880 [http-nio-9999-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /wgcloud/login/login.html
+2025-03-30 20:35:54.810 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:35:54
+2025-03-30 20:35:54.811 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:35:54
+2025-03-30 20:36:54.817 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:36:54
+2025-03-30 20:36:54.817 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:36:54
+2025-03-30 20:37:54.814 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:37:54
+2025-03-30 20:37:54.816 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:37:54
+2025-03-30 20:38:54.811 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:38:54
+2025-03-30 20:38:54.811 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:38:54
+2025-03-30 20:39:54.810 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:39:54
+2025-03-30 20:39:54.810 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:39:54
+2025-03-30 20:40:54.814 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:40:54
+2025-03-30 20:40:54.815 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:40:54
+2025-03-30 20:41:54.806 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:41:54
+2025-03-30 20:41:54.807 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:41:54
+2025-03-30 20:42:54.809 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:42:54
+2025-03-30 20:42:54.810 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:42:54
+2025-03-30 20:43:54.813 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:43:54
+2025-03-30 20:43:54.814 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:43:54
+2025-03-30 20:44:54.813 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 20:44:54
+2025-03-30 20:44:54.813 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:44:54
+2025-03-30 20:44:54.814 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:44:54
+2025-03-30 20:45:54.808 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:45:54
+2025-03-30 20:45:54.809 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:45:54
+2025-03-30 20:46:54.813 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:46:54
+2025-03-30 20:46:54.814 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:46:54
+2025-03-30 20:47:54.820 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:47:54
+2025-03-30 20:47:54.820 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:47:54
+2025-03-30 20:48:54.809 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:48:54
+2025-03-30 20:48:54.810 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:48:54
+2025-03-30 20:49:54.804 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:49:54
+2025-03-30 20:49:54.805 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:49:54
+2025-03-30 20:50:54.807 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 20:50:54
+2025-03-30 20:50:54.808 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 20:50:54
+2025-03-30 21:30:31.788 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m16s131ms723µs300ns).
+2025-03-30 21:30:57.428 [taskScheduler-21] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:30:57
+2025-03-30 21:30:57.428 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.429 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.429 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.430 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.430 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.431 [taskScheduler-6] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.431 [taskScheduler-22] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.432 [taskScheduler-22] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.432 [taskScheduler-23] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.432 [taskScheduler-23] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.433 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.433 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.433 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.434 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.434 [taskScheduler-25] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.434 [taskScheduler-25] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.435 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.435 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.435 [taskScheduler-18] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:30:57
+2025-03-30 21:30:57.435 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.435 [taskScheduler-27] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.436 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.437 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.437 [taskScheduler-20] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.437 [taskScheduler-29] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:30:57
+2025-03-30 21:30:57.437 [taskScheduler-20] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.437 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.438 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.438 [taskScheduler-30] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.438 [taskScheduler-30] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.439 [taskScheduler-44] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.439 [taskScheduler-44] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.439 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:30:57
+2025-03-30 21:30:57.439 [taskScheduler-15] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.439 [taskScheduler-15] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.440 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.440 [taskScheduler-32] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.440 [taskScheduler-24] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.440 [taskScheduler-24] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.441 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.441 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.441 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.442 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.443 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.444 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.444 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.444 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.445 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.445 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.445 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.445 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.446 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:30:57
+2025-03-30 21:30:57.447 [taskScheduler-34] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:30:57
+2025-03-30 21:31:54.738 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:31:54
+2025-03-30 21:31:54.738 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:31:54
+2025-03-30 21:32:54.733 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:32:54
+2025-03-30 21:32:54.734 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:32:54
+2025-03-30 21:33:54.738 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:33:54
+2025-03-30 21:33:54.739 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:33:54
+2025-03-30 21:34:54.733 [taskScheduler-16] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:34:54
+2025-03-30 21:34:54.733 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:34:54
+2025-03-30 21:34:54.733 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:34:54
+2025-03-30 21:35:54.740 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:35:54
+2025-03-30 21:35:54.741 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:35:54
+2025-03-30 21:36:54.734 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:36:54
+2025-03-30 21:36:54.734 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:36:54
+2025-03-30 21:37:54.731 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:37:54
+2025-03-30 21:37:54.731 [taskScheduler-35] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:37:54
+2025-03-30 21:38:54.736 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:38:54
+2025-03-30 21:38:54.736 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:38:54
+2025-03-30 21:39:54.739 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:39:54
+2025-03-30 21:39:54.739 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:39:54
+2025-03-30 21:40:54.732 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:40:54
+2025-03-30 21:40:54.733 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:40:54
+2025-03-30 21:41:54.736 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:41:54
+2025-03-30 21:41:54.736 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:41:54
+2025-03-30 21:42:54.742 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:42:54
+2025-03-30 21:42:54.742 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:42:54
+2025-03-30 21:43:54.734 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:43:54
+2025-03-30 21:43:54.735 [taskScheduler-36] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:43:54
+2025-03-30 21:44:54.732 [taskScheduler-43] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-30 21:44:54
+2025-03-30 21:44:54.732 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:44:54
+2025-03-30 21:44:54.732 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:44:54
+2025-03-30 21:45:54.741 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:45:54
+2025-03-30 21:45:54.741 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:45:54
+2025-03-30 21:46:54.741 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:46:54
+2025-03-30 21:46:54.742 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:46:54
+2025-03-30 21:47:54.740 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:47:54
+2025-03-30 21:47:54.741 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:47:54
+2025-03-30 21:48:54.740 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:48:54
+2025-03-30 21:48:54.740 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:48:54
+2025-03-30 21:49:54.731 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:49:54
+2025-03-30 21:49:54.732 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:49:54
+2025-03-30 21:50:54.744 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:50:54
+2025-03-30 21:50:54.744 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:50:54
+2025-03-30 21:51:54.744 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:51:54
+2025-03-30 21:51:54.744 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:51:54
+2025-03-30 21:52:54.730 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-30 21:52:54
+2025-03-30 21:52:54.731 [taskScheduler-41] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-30 21:52:54
+2025-03-30 21:53:10.593 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-30 21:53:10.595 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

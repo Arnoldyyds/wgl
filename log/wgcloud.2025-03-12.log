@@ -1,0 +1,31 @@
+2025-03-12 20:01:05.041 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 27608 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-12 20:01:05.042 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-12 20:01:05.101 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-12 20:01:05.101 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-12 20:01:05.102 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-12 20:01:06.432 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-12 20:01:06.433 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-12 20:01:06.434 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-12 20:01:06.434 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-12 20:01:06.434 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-12 20:01:07.509 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-12 20:01:07.519 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-12 20:01:07.519 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-12 20:01:07.626 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-12 20:01:07.626 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2524 ms
+2025-03-12 20:01:08.568 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-12 20:01:09.636 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-12 20:01:09.681 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-12 20:01:09.695 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.142 seconds (JVM running for 6.109)
+2025-03-12 20:01:26.132 [http-nio-9999-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-12 20:01:26.137 [http-nio-9999-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-12 20:01:26.139 [http-nio-9999-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-03-12 20:01:26.287 [http-nio-9999-exec-5] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [128] milliseconds.
+2025-03-12 20:01:29.725 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-12 20:01:29.727 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-12 20:01:29.842 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-12 20:01:30.043 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-12 20:01:39.705 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-12 20:01:39
+2025-03-12 20:01:39.707 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-12 20:01:39
+2025-03-12 20:02:14.248 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-12 20:02:14.257 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,930 @@
+2025-03-25 19:27:26.742 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 4620 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 19:27:26.744 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 19:27:26.809 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 19:27:26.809 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 19:27:26.809 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 19:27:28.356 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 19:27:28.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 19:27:28.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 19:27:28.358 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 19:27:28.358 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 19:27:29.417 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 19:27:29.429 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 19:27:29.430 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 19:27:29.549 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 19:27:29.549 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2739 ms
+2025-03-25 19:27:30.664 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 19:27:32.035 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 19:27:32.083 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 19:27:32.097 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.896 seconds (JVM running for 6.983)
+2025-03-25 19:27:42.525 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 19:27:42.525 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 19:27:42.525 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-25 19:27:48.259 [http-nio-9999-exec-6] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 19:27:48.259 [http-nio-9999-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 19:27:48.375 [http-nio-9999-exec-6] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 19:27:48.527 [http-nio-9999-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 19:28:02.097 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:28:02
+2025-03-25 19:28:02.099 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:28:02
+2025-03-25 19:29:02.094 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 19:29:02
+2025-03-25 19:29:02.094 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:29:02
+2025-03-25 19:29:02.095 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:29:02
+2025-03-25 19:29:59.305 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 4856 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 19:29:59.307 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 19:29:59.359 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 19:29:59.359 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 19:30:00.283 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 19:30:00.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 19:30:00.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 19:30:00.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 19:30:00.285 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 19:30:01.338 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 19:30:01.347 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 19:30:01.348 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 19:30:01.443 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 19:30:01.444 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2084 ms
+2025-03-25 19:30:01.594 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 19:30:01.739 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 19:30:01.739 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 19:30:01.739 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 19:30:01.739 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 19:30:01.750 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 19:30:01.755 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 19:30:01.759 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 19:30:01.760 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 19:30:02.106 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:30:02
+2025-03-25 19:30:02.106 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:30:02
+2025-03-25 19:30:02.198 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 19:30:02.237 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 19:30:02.247 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.484 seconds (JVM running for 4.28)
+2025-03-25 19:30:03.062 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 19:30:03.151 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 19:31:02.106 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:31:02
+2025-03-25 19:31:02.107 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:31:02
+2025-03-25 19:31:13.683 [taskScheduler-1] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 19:31:13.684 [taskScheduler-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:31:13.743 [http-nio-9999-exec-7] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742902273739_capture_20250325193113.pcap
+2025-03-25 19:31:13.825 [http-nio-9999-exec-7] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 19:31:13.830 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 19:31:13.834 [http-nio-9999-exec-7] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 19:31:13.873 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 19:31:13.873 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 19:31:13.873 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 19:31:13.874 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 19:31:13.906 [http-nio-9999-exec-7] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 19:31:13.953 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:31:13.970 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:32:02.109 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:32:02
+2025-03-25 19:32:02.163 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:32:02
+2025-03-25 19:32:25.329 [http-nio-9999-exec-5] ERROR com.wgcloud.util.jdbc.ConnectionUtil - 连接数据库错误
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(JdbcTemplate.java:530)
+	at com.wgcloud.util.jdbc.ConnectionUtil.getJdbcTemplate(ConnectionUtil.java:61)
+	at com.wgcloud.controller.DbInfoController.valdateDbInfo(DbInfoController.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:899)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 56 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'wgcloud'@'localhost' (using password: YES)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:787)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:709)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:677)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:137)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:470)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:211)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1369)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:843)
+	... 69 common frames omitted
+2025-03-25 19:32:42.597 [http-nio-9999-exec-6] ERROR com.wgcloud.util.jdbc.ConnectionUtil - 连接数据库错误
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:83)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForRowSet(JdbcTemplate.java:530)
+	at com.wgcloud.util.jdbc.ConnectionUtil.getJdbcTemplate(ConnectionUtil.java:61)
+	at com.wgcloud.controller.DbInfoController.valdateDbInfo(DbInfoController.java:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:899)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:191)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)
+	at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)
+	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:169)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	... 56 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'wgcloud'@'localhost' (using password: YES)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:787)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:709)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:677)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:137)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:470)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:211)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1369)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:843)
+	... 69 common frames omitted
+2025-03-25 19:33:02.108 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:33:02
+2025-03-25 19:33:02.108 [taskScheduler-8] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:33:02
+2025-03-25 19:33:12.037 [taskScheduler-3] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 19:33:12.037 [taskScheduler-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:33:12.053 [http-nio-9999-exec-10] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742902392053_capture_20250325193311.pcap
+2025-03-25 19:33:12.053 [http-nio-9999-exec-10] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:33:12.085 [http-nio-9999-exec-10] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:34:02.095 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:34:02
+2025-03-25 19:34:02.127 [taskScheduler-10] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:34:02
+2025-03-25 19:35:02.106 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:35:02
+2025-03-25 19:35:02.106 [taskScheduler-11] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:35:02
+2025-03-25 19:35:12.325 [taskScheduler-1] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 19:35:12.325 [taskScheduler-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:35:12.346 [http-nio-9999-exec-3] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742902512344_capture_20250325193512.pcap
+2025-03-25 19:35:12.359 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:35:12.393 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:36:02.103 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:36:02
+2025-03-25 19:36:02.135 [taskScheduler-12] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:36:02
+2025-03-25 19:37:02.096 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:37:02
+2025-03-25 19:37:02.096 [taskScheduler-13] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:37:02
+2025-03-25 19:37:12.257 [taskScheduler-4] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 19:37:12.257 [taskScheduler-4] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:37:12.295 [http-nio-9999-exec-8] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742902632292_capture_20250325193712.pcap
+2025-03-25 19:37:12.304 [http-nio-9999-exec-8] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:37:12.352 [http-nio-9999-exec-8] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 19:38:02.095 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 19:38:02
+2025-03-25 19:38:02.127 [taskScheduler-14] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 19:38:02
+2025-03-25 19:38:34.934 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 19:38:34.937 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:00:00.740 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 15228 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:00:00.742 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:00:00.840 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:00:00.840 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:00:00.840 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:00:02.725 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:00:02.727 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:00:02.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:00:02.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:00:02.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:00:03.785 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:00:03.798 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:00:03.798 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:00:03.988 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:00:03.989 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3148 ms
+2025-03-25 20:00:04.259 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 22944 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:00:04.261 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:00:04.347 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:00:04.348 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:00:05.573 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:00:06.084 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 20:00:06.086 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:00:06.087 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:00:06.087 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:00:06.087 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:00:06.789 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:00:06.835 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:00:06.854 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 6.809 seconds (JVM running for 7.488)
+2025-03-25 20:00:07.157 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:00:07.169 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:00:07.169 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:00:07.280 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:00:07.280 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2932 ms
+2025-03-25 20:00:07.427 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:00:07.581 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:00:07.582 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:00:07.582 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:00:07.582 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:00:07.596 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 20:00:07.603 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 20:00:07.608 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:00:07.609 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 20:00:07.749 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:00:07.885 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:00:08.430 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 20:00:08.485 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 20:00:08.502 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 4.98 seconds (JVM running for 5.617)
+2025-03-25 20:00:17.883 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:00:17.883 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:00:17.883 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-25 20:00:18.035 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:00:18.035 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:00:18.247 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:00:18.441 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:00:36.857 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:00:36
+2025-03-25 20:00:36.862 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:00:36
+2025-03-25 20:01:19.540 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:01:19.541 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:01:19.614 [http-nio-9999-exec-6] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742904079610_capture_20250325200119.pcap
+2025-03-25 20:01:19.664 [http-nio-9999-exec-6] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:01:19.669 [http-nio-9999-exec-6] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:01:19.673 [http-nio-9999-exec-6] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:01:19.717 [http-nio-9999-exec-6] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:01:19.717 [http-nio-9999-exec-6] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:01:19.717 [http-nio-9999-exec-6] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:01:19.717 [http-nio-9999-exec-6] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:01:19.743 [http-nio-9999-exec-6] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:01:19.815 [http-nio-9999-exec-6] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:01:19.827 [http-nio-9999-exec-6] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:01:19.839 [http-nio-9999-exec-6] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:01:19.850 [http-nio-9999-exec-6] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:01:36.852 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 20:01:36
+2025-03-25 20:01:36.852 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:01:36
+2025-03-25 20:01:36.894 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:01:36
+2025-03-25 20:02:36.856 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:02:36
+2025-03-25 20:02:36.857 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:02:36
+2025-03-25 20:03:18.403 [taskScheduler-3] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:03:18.403 [taskScheduler-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:03:18.452 [http-nio-9999-exec-3] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742904198448_capture_20250325200318.pcap
+2025-03-25 20:03:18.452 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:03:18.477 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:03:18.484 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:03:18.500 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:03:36.851 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:03:36
+2025-03-25 20:03:36.867 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:03:36
+2025-03-25 20:04:36.852 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:04:36
+2025-03-25 20:04:36.852 [taskScheduler-3] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:04:36
+2025-03-25 20:05:18.389 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:05:18.389 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:05:18.405 [http-nio-9999-exec-1] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742904318402_capture_20250325200518.pcap
+2025-03-25 20:05:18.415 [http-nio-9999-exec-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:05:18.421 [http-nio-9999-exec-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:05:18.425 [http-nio-9999-exec-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:05:18.429 [http-nio-9999-exec-1] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:05:36.858 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:05:36
+2025-03-25 20:05:36.881 [taskScheduler-9] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:05:36
+2025-03-25 20:05:43.386 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:05:43.389 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:07:09.290 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 8800 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:07:09.291 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:07:09.353 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:07:09.353 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:07:09.353 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:07:10.648 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:07:10.649 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:07:10.650 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:07:10.650 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:07:10.650 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:07:11.739 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:07:11.749 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:07:11.750 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:07:11.883 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:07:11.883 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2529 ms
+2025-03-25 20:07:13.043 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:07:13.745 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 15396 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:07:13.747 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:07:13.805 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:07:13.805 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:07:14.269 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:07:14.315 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:07:14.330 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.495 seconds (JVM running for 6.333)
+2025-03-25 20:07:14.757 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 20:07:14.759 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:07:14.759 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:07:14.759 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:07:14.760 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:07:15.836 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:07:15.845 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:07:15.845 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:07:15.940 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:07:15.940 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2134 ms
+2025-03-25 20:07:16.042 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:07:16.180 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:07:16.181 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:07:16.181 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:07:16.181 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:07:16.192 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 20:07:16.196 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 20:07:16.200 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:07:16.202 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 20:07:16.625 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 20:07:16.664 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 20:07:16.674 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.439 seconds (JVM running for 4.316)
+2025-03-25 20:07:18.189 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:07:18.264 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:07:34.353 [taskScheduler-3] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:07:34.354 [taskScheduler-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:07:34.437 [taskScheduler-3] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:07:34.583 [taskScheduler-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:07:44.337 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:07:44
+2025-03-25 20:07:44.337 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:07:44
+2025-03-25 20:07:44.785 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:07:44.785 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:07:44.785 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-25 20:08:28.959 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:08:28.960 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:08:29.115 [http-nio-9999-exec-5] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742904509109_capture_20250325200828.pcap
+2025-03-25 20:08:29.177 [http-nio-9999-exec-5] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:08:29.183 [http-nio-9999-exec-5] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:08:29.188 [http-nio-9999-exec-5] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:08:29.229 [http-nio-9999-exec-5] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:08:29.230 [http-nio-9999-exec-5] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:08:29.230 [http-nio-9999-exec-5] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:08:29.230 [http-nio-9999-exec-5] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:08:29.259 [http-nio-9999-exec-5] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:08:29.271 [http-nio-9999-exec-5] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:08:29.272 [http-nio-9999-exec-5] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:08:29.273 [http-nio-9999-exec-5] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:08:29.274 [http-nio-9999-exec-5] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:08:44.330 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 20:08:44
+2025-03-25 20:08:44.330 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:08:44
+2025-03-25 20:08:44.390 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:08:44
+2025-03-25 20:08:57.340 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:08:57.343 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:12:03.532 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 22280 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:12:03.535 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:12:03.612 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:12:03.613 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:12:03.613 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:12:05.598 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:12:05.599 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:12:05.599 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:12:05.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:12:05.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:12:05.827 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 20356 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:12:05.828 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:12:05.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:12:05.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:12:06.694 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:12:06.708 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:12:06.709 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:12:06.849 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:12:06.849 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3235 ms
+2025-03-25 20:12:07.072 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 20:12:07.073 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:12:07.074 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:12:07.074 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:12:07.074 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:12:07.957 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:12:08.142 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:12:08.152 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:12:08.152 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:12:08.266 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:12:08.267 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2371 ms
+2025-03-25 20:12:08.403 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:12:08.569 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:12:08.570 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:12:08.570 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:12:08.570 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:12:08.581 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 20:12:08.587 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 20:12:08.592 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:12:08.594 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 20:12:09.093 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:12:09.133 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 20:12:09.136 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 20:12:09.150 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.977 seconds (JVM running for 5.051)
+2025-03-25 20:12:09.162 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:12:09.187 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:12:09.202 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 6.256 seconds (JVM running for 7.559)
+2025-03-25 20:12:09.230 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:12:29.223 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:12:29.224 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:12:29.315 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:12:29.466 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:12:37.283 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:12:37.284 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:12:37.285 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 20:12:39.201 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:12:39
+2025-03-25 20:12:39.203 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:12:39
+2025-03-25 20:13:20.896 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:13:20.897 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:13:20.953 [http-nio-9999-exec-3] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742904800948_capture_20250325201320.pcap
+2025-03-25 20:13:21.008 [http-nio-9999-exec-3] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:13:21.015 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:13:21.019 [http-nio-9999-exec-3] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:13:21.058 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:13:21.058 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:13:21.058 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:13:21.058 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:13:21.089 [http-nio-9999-exec-3] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:13:21.103 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:13:21.109 [http-nio-9999-exec-3] ERROR o.a.c.c.C.[.[.[/wgcloud].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/wgcloud] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.wgcloud.analysis.AlarmStorageService.saveSecurityAlert(int, String, String, String)" because "this.alarmStorageService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.wgcloud.analysis.AlarmStorageService.saveSecurityAlert(int, String, String, String)" because "this.alarmStorageService" is null
+	at com.wgcloud.analysis.SqlInjectionAnalysis.analyzeAndSaveSqlInjection(SqlInjectionAnalysis.java:54)
+	at com.wgcloud.analysis.AnlysisPcap.SqlInjectionCheck(AnlysisPcap.java:68)
+	at com.wgcloud.analysis.AnlysisPcap.<init>(AnlysisPcap.java:58)
+	at com.wgcloud.controller.AgentController.uploadPcapFile(AgentController.java:182)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.wgcloud.filter.AuthRestFilter.doFilter(AuthRestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-03-25 20:13:39.212 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 20:13:39
+2025-03-25 20:13:39.212 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:13:39
+2025-03-25 20:13:39.273 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:13:39
+2025-03-25 20:13:52.342 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:13:52.347 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:26:33.596 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 6612 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:26:33.598 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:26:33.669 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:26:33.670 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:26:33.670 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:26:35.340 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:26:35.341 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:26:35.341 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:26:35.342 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:26:35.342 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:26:36.405 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:26:36.416 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:26:36.416 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:26:36.537 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:26:36.537 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2866 ms
+2025-03-25 20:26:37.633 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:26:38.755 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:26:38.801 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:26:38.815 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.816 seconds (JVM running for 6.871)
+2025-03-25 20:26:54.515 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 13556 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:26:54.516 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:26:54.570 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:26:54.570 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:26:55.598 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 20:26:55.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:26:55.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:26:55.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:26:55.600 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:26:56.680 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:26:56.690 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:26:56.691 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:26:56.801 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:26:56.802 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2231 ms
+2025-03-25 20:26:56.936 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:26:57.090 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:26:57.091 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:26:57.091 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:26:57.091 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:26:57.102 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 20:26:57.108 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 20:26:57.113 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:26:57.114 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 20:26:57.159 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:26:57.264 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:26:57.642 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 20:26:57.675 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 20:26:57.686 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.689 seconds (JVM running for 4.624)
+2025-03-25 20:26:58.837 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:26:58.838 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:26:58.942 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:26:59.116 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:27:08.816 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:27:08
+2025-03-25 20:27:08.818 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:27:08
+2025-03-25 20:27:25.821 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:27:25.821 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:27:25.822 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 20:27:25.934 [http-nio-9999-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [105] milliseconds.
+2025-03-25 20:28:08.824 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 20:28:08
+2025-03-25 20:28:08.824 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:28:08
+2025-03-25 20:28:08.825 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:28:08
+2025-03-25 20:28:09.989 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:28:09.990 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:28:10.046 [http-nio-9999-exec-7] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742905690043_capture_20250325202809.pcap
+2025-03-25 20:28:10.094 [http-nio-9999-exec-7] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:28:10.100 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:28:10.104 [http-nio-9999-exec-7] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:28:10.144 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:28:10.144 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:28:10.144 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:28:10.145 [http-nio-9999-exec-7] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:28:10.175 [http-nio-9999-exec-7] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:28:10.187 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:28:17.955 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:28:17.956 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:28:17.957 [http-nio-9999-exec-7] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:28:38.047 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:28:38.051 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:31:29.033 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 4252 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-agent\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:31:29.036 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:31:29.096 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:31:29.096 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:31:30.228 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2025-03-25 20:31:30.230 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:31:30.231 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:31:30.231 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:31:30.231 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:31:31.292 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:31:31.303 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:31:31.304 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:31:31.424 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud-agent] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:31:31.424 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2327 ms
+2025-03-25 20:31:31.572 [restartedMain] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:31:31.744 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:31:31.744 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:31:31.744 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:31:31.744 [restartedMain] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:31:31.756 [restartedMain] ERROR org.pcap4j.core.PcapNetworkInterface - Failed to retrieve the link layer address of the NIF: \Device\NPF_Loopback
+2025-03-25 20:31:31.761 [restartedMain] INFO  org.pcap4j.core.Pcaps - 14 NIF(s) found.
+2025-03-25 20:31:31.766 [pool-1-thread-1] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:31:31.768 [pool-1-thread-1] INFO  org.pcap4j.core.PcapHandle - Starting loop.
+2025-03-25 20:31:32.284 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:31:32.329 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path '/wgcloud-agent'
+2025-03-25 20:31:32.339 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 3.83 seconds (JVM running for 4.734)
+2025-03-25 20:31:32.860 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:31:32.936 [pool-1-thread-1] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:31:35.018 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 24532 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:31:35.020 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:31:35.089 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:31:35.089 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:31:35.089 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:31:36.456 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:31:36.457 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:31:36.458 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:31:36.458 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:31:36.458 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:31:37.519 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:31:37.529 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:31:37.529 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:31:37.645 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:31:37.646 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2556 ms
+2025-03-25 20:31:38.658 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:31:39.709 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-03-25 20:31:39.755 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:31:39.773 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.303 seconds (JVM running for 6.363)
+2025-03-25 20:31:59.792 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:31:59.793 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:31:59.883 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:32:00.036 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:32:00.479 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:32:00.480 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:32:00.481 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 20:32:09.770 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:32:09
+2025-03-25 20:32:09.772 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:32:09
+2025-03-25 20:32:43.735 [taskScheduler-2] INFO  org.pcap4j.core.PcapDumper - Closed.
+2025-03-25 20:32:43.736 [taskScheduler-2] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:32:43.788 [http-nio-9999-exec-3] INFO  com.wgcloud.controller.AgentController - Pcap 文件上传成功: D:\Program\easyjava\wgcloud-3.5.7\upload\pcap\1742905963785_capture_20250325203243.pcap
+2025-03-25 20:32:43.841 [http-nio-9999-exec-3] INFO  org.pcap4j.core.NativeMappings - Pcap4J successfully loaded a native pcap library: Npcap version 1.55, based on libpcap version 1.10.2-PRE-GIT
+2025-03-25 20:32:43.845 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.dlt.raw, use default value: 12
+2025-03-25 20:32:43.849 [http-nio-9999-exec-3] INFO  org.pcap4j.packet.factory.PacketFactories - A PacketFactoryBinderProvider implementation is found. ClassLoader: jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1, URL: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/org/pcap4j/pcap4j-packetfactory-static/1.8.2/pcap4j-packetfactory-static-1.8.2.jar
+2025-03-25 20:32:43.887 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet, use default value: 2
+2025-03-25 20:32:43.887 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.inet6, use default value: 23
+2025-03-25 20:32:43.887 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.packet, use default value: 17
+2025-03-25 20:32:43.887 [http-nio-9999-exec-3] INFO  org.pcap4j.util.PropertiesLoader - [org/pcap4j/pcap4j.properties] Could not get value by org.pcap4j.af.link, use default value: 18
+2025-03-25 20:32:43.914 [http-nio-9999-exec-3] INFO  org.pcap4j.packet.factory.PacketFactories - Succeeded in PacketFactoryBinderProvider.getBinder()
+2025-03-25 20:32:43.926 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:32:47.702 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:32:47.703 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:32:47.704 [http-nio-9999-exec-3] INFO  org.pcap4j.core.PcapHandle - Closed.
+2025-03-25 20:33:09.771 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 20:33:09
+2025-03-25 20:33:09.771 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 20:33:09
+2025-03-25 20:33:09.825 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 20:33:09
+2025-03-25 20:33:23.572 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:33:23.576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 20:50:25.155 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 8964 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 20:50:25.156 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 20:50:25.221 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 20:50:25.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 20:50:25.221 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 20:50:26.733 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 20:50:26.734 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 20:50:26.735 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 20:50:26.735 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 20:50:26.735 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 20:50:27.815 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 20:50:27.826 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 20:50:27.826 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 20:50:27.944 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 20:50:27.944 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2722 ms
+2025-03-25 20:50:28.955 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 20:50:30.016 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 20:50:30.062 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 20:50:30.075 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.596 seconds (JVM running for 6.611)
+2025-03-25 20:50:31.217 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 20:50:31.217 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 20:50:31.218 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 20:50:31.285 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 20:50:31.286 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 20:50:31.392 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 20:50:31.583 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 20:50:37.085 [http-nio-9999-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [106] milliseconds.
+2025-03-25 20:50:47.985 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 20:50:47.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 21:39:09.769 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 25472 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 21:39:09.771 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 21:39:09.847 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 21:39:09.847 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 21:39:09.847 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 21:39:11.553 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 21:39:11.554 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 21:39:11.555 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 21:39:11.555 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 21:39:11.555 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 21:39:12.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 21:39:12.622 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 21:39:12.622 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 21:39:12.740 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 21:39:12.740 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2893 ms
+2025-03-25 21:39:13.825 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 21:39:14.909 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 21:39:14.955 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 21:39:14.971 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.842 seconds (JVM running for 7.053)
+2025-03-25 21:39:24.277 [http-nio-9999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 21:39:24.277 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 21:39:24.278 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 21:39:31.644 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 21:39:31.644 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 21:39:31.757 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 21:39:31.931 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 21:39:44.968 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 21:39:44
+2025-03-25 21:39:44.970 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 21:39:44
+2025-03-25 21:40:44.973 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 21:40:44
+2025-03-25 21:40:44.973 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 21:40:44
+2025-03-25 21:40:44.974 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 21:40:44
+2025-03-25 21:41:21.507 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 21:41:21.510 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 21:41:26.069 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 3272 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 21:41:26.071 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 21:41:26.133 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 21:41:26.133 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 21:41:26.133 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 21:41:27.609 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 21:41:27.610 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 21:41:27.610 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 21:41:27.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 21:41:27.611 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 21:41:28.656 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 21:41:28.665 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 21:41:28.666 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 21:41:28.803 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 21:41:28.803 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2669 ms
+2025-03-25 21:41:29.895 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 21:41:30.933 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 21:41:30.977 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 21:41:30.990 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.386 seconds (JVM running for 6.24)
+2025-03-25 21:41:51.014 [taskScheduler-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 21:41:51.016 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 21:41:51.101 [taskScheduler-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 21:41:51.244 [taskScheduler-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 21:42:00.990 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 21:42:00
+2025-03-25 21:42:00.992 [taskScheduler-2] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 21:42:00
+2025-03-25 21:42:05.702 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 21:42:05.702 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 21:42:05.703 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 21:43:00.988 [taskScheduler-5] INFO  com.wgcloud.task.ScheduledTask - heathMonitorTask------------2025-03-25 21:43:00
+2025-03-25 21:43:00.988 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 21:43:00
+2025-03-25 21:43:00.988 [taskScheduler-4] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 21:43:00
+2025-03-25 21:43:03.102 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 21:43:03.107 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 21:43:51.466 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 14172 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 21:43:51.468 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 21:43:51.529 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 21:43:51.529 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 21:43:51.529 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 21:43:52.815 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 21:43:52.817 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 21:43:52.817 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 21:43:52.817 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 21:43:52.817 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 21:43:53.881 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 21:43:53.890 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 21:43:53.890 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 21:43:53.999 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 21:43:53.999 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2469 ms
+2025-03-25 21:43:54.956 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 21:43:56.002 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 21:43:56.047 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 21:43:56.061 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 5.082 seconds (JVM running for 5.972)
+2025-03-25 21:43:57.795 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 21:43:57.795 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 21:43:57.796 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-25 21:43:57.880 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 21:43:57.881 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 21:43:57.976 [http-nio-9999-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 21:43:58.143 [http-nio-9999-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 21:44:07.959 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 21:44:07.966 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-25 21:44:34.721 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 24244 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 21:44:34.722 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 21:44:34.815 [restartedMain] INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\repo\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar referenced one or more files that do not exist: file:/D:/apache-maven-3.8.6-bin/apache-maven-3.8.6/repo/com/oracle/ojdbc6/11.2.0.3/oraclepki.jar
+2025-03-25 21:44:34.816 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-25 21:44:34.816 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-25 21:44:36.310 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 21:44:36.312 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 21:44:36.312 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 21:44:36.312 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 21:44:36.312 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 21:44:37.399 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 21:44:37.413 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 21:44:37.414 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 21:44:37.609 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 21:44:37.610 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2793 ms
+2025-03-25 21:44:39.027 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 21:44:40.581 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 21:44:40.661 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 21:44:40.688 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 6.736 seconds (JVM running for 8.138)
+2025-03-25 21:44:55.330 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Starting WgcloudServiceApplication using Java 19.0.2 on LAPTOP-1HFCDDG0 with PID 24244 (D:\Program\easyjava\wgcloud-3.5.7\wgcloud-server\target\classes started by Ho1L0w_By in D:\Program\easyjava\wgcloud-3.5.7)
+2025-03-25 21:44:55.330 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-25 21:44:55.743 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+2025-03-25 21:44:55.743 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2025-03-25 21:44:55.743 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2025-03-25 21:44:55.743 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2025-03-25 21:44:55.743 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2025-03-25 21:44:55.744 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2025-03-25 21:44:55.744 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-25 21:44:55.744 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2025-03-25 21:44:55.790 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring embedded WebApplicationContext
+2025-03-25 21:44:55.790 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+2025-03-25 21:44:56.155 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-03-25 21:44:56.213 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-25 21:44:56.226 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path '/wgcloud'
+2025-03-25 21:44:56.230 [restartedMain] INFO  com.wgcloud.WgcloudServiceApplication - Started WgcloudServiceApplication in 0.945 seconds (JVM running for 23.68)
+2025-03-25 21:44:56.232 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-03-25 21:45:16.264 [taskScheduler-2] WARN  com.zaxxer.hikari.HikariConfig - HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-03-25 21:45:16.266 [taskScheduler-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-25 21:45:16.268 [taskScheduler-2] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2025-03-25 21:45:16.415 [taskScheduler-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-25 21:45:26.232 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务开始----------2025-03-25 21:45:26
+2025-03-25 21:45:26.234 [taskScheduler-1] INFO  com.wgcloud.task.ScheduledTask - 批量提交监控数据任务结束----------2025-03-25 21:45:26
+2025-03-25 21:45:33.381 [http-nio-9999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/wgcloud] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25 21:45:33.382 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-25 21:45:33.382 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-25 21:45:49.745 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-25 21:45:49.755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
